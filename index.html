@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<title>Welcome to blur page</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+	$("button").click(function(){$("p").show();});
+	
+  }); 
+  
+  $("#h").onclick(function(){
+    $(this).css("color", "yellow");});
+
+});
+
+</script>
+</head>
+<body>
+<!--<section class="menubar menu">
+<div class="container grid-6 center">
+     <div><h3>HOME</h3></div>
+	 <div><h3>About</h3></div>
+	 <div><h3>PRODUCTS</h3></div>
+	 <div><h3>PORTOLIO</h3></div>
+	 <div><h3>SERVIES</h3></div>
+	 <div><h3>CONTACT</h3></div>
+   </div>
+</section>
+-->
+ <header class="showcase">
+ <!-- logo div-->
+ <div class="content">
+  <img src="images/downloadfile-2.jpg" class="logo" alt="welcome">
+  <div class="title">Welcome to my Media</div>
+  <div class="text">Lorem lpsum is simply dummy text of the printing and type setting industry. 
+  </div>
+ </div>
+ 
+</header>
+  
+ <!-- services -->
+ <section class="services">
+ <div class="container grid-3 center">
+ 
+ <div>
+  <i class="fab fa-youtube fa-3x"></i>
+  <h3>youtube </h3>
+  <p>Lorem lpsum is simply dummy text of the printing and type setting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500's. when an unknown printer took a</p>
+ </div>
+ <div>
+  <i class="fas fa-chalkboard-teacher fa-3x"></i>
+  <h3>courses</h3>
+  <p>Lorem lpsum is simply dummy text of the printing and type setting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500's. when an unknown printer took a</p>
+ </div>
+ <div>
+  <i class="fas fa-briefcase fa-3x"></i>
+  <h3>Freelancing projects</h3>
+  <p>Lorem lpsum is simply dummy text of the printing and type setting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500's. when an unknown printer took a</p>
+ </div>
+ </div>
+ </section>
+ 
+ <!-- About -->
+ <section class="about bg-light">
+ <div class="container">
+ <div class="grid-2">
+   <div class="center">
+   <i class="fas fa-laptop-code fa-10x"></i>
+   </div>
+   <div>
+   <h3 id= "h">About Us</h3>
+   <p>Lorem lpsum is simply dummy text of the printing and type setting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500's. when an unknown printer took aLorem lpsum is simply dummy text of the printing and type setting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500's. when an unknown printer took</p>
+   </div>
+   <div>
+    <button class="btn btn-default">Submit</button>
+	</div>
+ </div>
+ </div>
+ </section>
+ 
+ <!--footer-->
+ <footer class="center bg-dark">
+  <p>Welcome our media &copy; 2018</p>
+ 
+ </footer>
+</body>
+</html>
